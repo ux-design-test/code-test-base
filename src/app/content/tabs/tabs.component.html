@@ -1,0 +1,99 @@
+<mat-tab-group>
+        <mat-tab label="Responsive"> 
+            
+            <!-- Responsive Design Test:
+
+            Display the below boxes in row column approach in tabs.component.html. 
+            Each row should contains 4 boxes each. 
+            The boxes should be responsive, when there is a change in screen size or the screen is resized.
+            Use any techniques to design a responsive display-->
+
+            <!-- Your code goes here for reponsive design. -->
+
+            <div class="resp-box"></div>
+            <div class="resp-box"></div>
+            <div class="resp-box"></div>
+            <div class="resp-box"></div>
+            <div class="resp-box"></div>
+            <div class="resp-box"></div>
+            <div class="resp-box"></div>
+            <div class="resp-box"></div>
+            <div class="resp-box"></div>
+            <div class="resp-box"></div>
+            <div class="resp-box"></div>
+            <div class="resp-box"></div>
+
+            <!-- Your code goes here for reponsive design. -->
+
+        </mat-tab>
+        <mat-tab label="Unit Test">
+            <div class="resp-box-container-unit-test">
+                <button class="btn-warning margin-all" (click)="displayName(true)">Click me to display Boy</button>  
+                <button class="btn-warning margin-all"  (click)="displayName(false)">Click me to display Girl</button>  
+                <div class="margin-all">
+                    <h1>{{userName}}</h1>
+                </div>                   
+            </div>
+        </mat-tab>
+        <mat-tab label="Reactive Form Validation">
+            
+            <!-- Reactive Form Validation Test with api call invoke:
+
+            This Reactive form validation is for to evaluate the html, css, reactive form validation and form or button submit, route skills.
+            1. User name field, - Mandatory validation needed and its error message display below to the field.
+            2. Email field, - Mandatory validation needed and its error message display below to the field.
+            3. One pair of radio button with labels as "Display HD image" and "Display Normal Image" - Mandatory selection validation needed and its error message display below to the field.
+            
+            when the form or button is submitted successfully, write code snippet in button/form click callback method to route/navigate the component to bind component and also pass the radio selection flag to bind component in your own logics/ways.
+            Then, use an existing MessageService class to invoke an api call in bind component during on load with urls as  'https://api.nasa.gov/planetary/apod?api_key=GoaZSnG80hf9Wrhh1cL6h8GzpFAPuZVKm2ipjXOl'. 
+            Note: This api does not need any inputs, so don't carry the name and email field values to bind component.Those two are given to evaluate your form validation and html skills.
+
+            This api response includes, 
+            1. Two dynamic image urls. 
+            2. Few other attributes.
+            
+            Our end goal is to bind or display all the api response attributes including either one of the image using url.
+
+            Note:
+            Either one Image display selection should depend on the user selection in "display image" radio buttons in the tabs component.
+            For to display one image at a time, you have find a way to pass the user radio button selection flag (either true or false ) from tabs component to bind component.
+            Finally, while processing api reponse, use the radio button selection flag to display either HD or normal image along with other response attributes in the bind component. -->
+
+
+               <!-- Your code goes here for reactive form design and validation. -->
+
+
+               <!-- Your code goes here for reactive form design and validation. -->
+
+        </mat-tab>
+        <mat-tab label="Template Form Validation"> 
+
+            <!-- Temaplate Form Validation Test with api call invoke:
+
+            This template form validation is for to evaluate the html, css, reactive form validation and form or button submit, route skills.
+            1. User name field, - Mandatory validation needed and its error message display below to the field.
+            2. Email field, - Mandatory validation needed and its error message display below to the field.
+            3. One pair of radio button with labels as "Display HD image" and "Display Normal Image" - Mandatory selection validation needed and its error message display below to the field.
+            
+            when the form or button is submitted successfully, write code snippet in button/form click callback method to route/navigate the component to bind component and also pass the radio selection flag to bind component in your own logics/ways.
+            Then, use an existing MessageService class to invoke an api call in bind component during on load with urls as  'https://api.nasa.gov/planetary/apod?api_key=GoaZSnG80hf9Wrhh1cL6h8GzpFAPuZVKm2ipjXOl'. 
+            Note: This api does not need any inputs, so don't carry the name and email field values to bind component.Those two are given to evaluate your form validation and html skills.
+
+            This api response includes, 
+            1. Two dynamic image urls. 
+            2. Few other attributes.
+            
+            Our end goal is to bind or display all the api response attributes including either one of the image using url.
+
+            Note:
+            Either one Image display selection should depend on the user selection in "display image" radio buttons in the tabs component.
+            For to display one image at a time, you have find a way to pass the user radio button selection flag (either true or false ) from tabs component to bind component.
+            Finally, while processing api reponse, use the radio button selection flag to display either HD or normal image along with other response attributes in the bind component. -->
+
+
+               <!-- Your code goes here for template form design and validation. -->
+
+
+               <!-- Your code goes here for template form design and validation. -->
+             </mat-tab>
+      </mat-tab-group>
